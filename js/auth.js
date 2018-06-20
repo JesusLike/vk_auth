@@ -8,6 +8,11 @@ function vk_auth() {
 			"&response_type=token" +
 			"&v=5.80",
 		type: "GET",
-		crossDomain: "true"
+		dataType: "json",
+		crossDomain: "true",
+		headers: {
+			"Access-Control-Allow-Origin": "*"
+		}
+
 	});
 }
