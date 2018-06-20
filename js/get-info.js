@@ -20,6 +20,9 @@ function getInfo(auth_token) {
 		crossDomain: true,
 		success: function(data) {
 			alert(5);
+			console.log(data);
+			console.log(data.response);
+			console.log(data.response.items);
 			friendList = data.response.items.map(function(item) {
 				return item.first_name + " " + item.last_name;
 			});
