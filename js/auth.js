@@ -9,5 +9,6 @@ function vk_auth() {
 			&v=5.80",
 		type: "GET",
 		dataType: "jsonp",
-		crossDomain: "true");
+		crossDomain: "true"
+	});
 }
