@@ -5,7 +5,7 @@ function getInfo(auth_token) {
 			return item.first_name + " " + item.last_name;
 		});
 	return {
-		username: userInfo.first_name + " " + userInfo.last_name;
-		friends: friendList;
+		username: userInfo.first_name + " " + userInfo.last_name,
+		friends: friendList
 	};
 }

@@ -1,0 +1,61 @@
+[33mcommit bccd74dadcb3a149ef6d6e687914be9012cf4f50[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Yudovich <yudovichml@gmail.com>
+Date:   Wed Jun 20 09:41:29 2018 +0300
+
+    Revert "beta"
+    
+    This reverts commit b430bd40e768b377f59a8c6b8d78aa408adcf37f.
+
+[33mcommit b430bd40e768b377f59a8c6b8d78aa408adcf37f[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Yudovich <yudovichml@gmail.com>
+Date:   Wed Jun 20 09:40:05 2018 +0300
+
+    beta
+
+[33mcommit 2b4eab8d3473bcc869abeb8f74b7ecd1e4104200[m
+Author: Yudovich <yudovichml@gmail.com>
+Date:   Wed Jun 20 08:00:50 2018 +0300
+
+    reworked
+
+[33mcommit 55aea0ace9b505297542a942a8c5bc7f1b2cc82a[m
+Author: Yudovich <yudovichml@gmail.com>
+Date:   Wed Jun 20 07:20:36 2018 +0300
+
+    cors header
+
+[33mcommit 2c82e8c5df88957f128f651f79e5d4f85216eaf7[m
+Author: Yudovich <yudovichml@gmail.com>
+Date:   Wed Jun 20 04:05:13 2018 +0300
+
+    little fix
+
+[33mcommit e9dee3e0c0e7cdc6aeee45e99ec5c0e0ea205117[m
+Author: Yudovich <yudovichml@gmail.com>
+Date:   Wed Jun 20 04:01:06 2018 +0300
+
+    fixed broken url
+
+[33mcommit 0b5add6f51dc1de65dd3cb38e2fc13d0619f4947[m
+Author: Yudovich <yudovichml@gmail.com>
+Date:   Wed Jun 20 03:49:51 2018 +0300
+
+    syntax error
+
+[33mcommit 1c97f7e3bb88c32baaf5664513abf9f08cf69103[m
+Author: Yudovich <yudovichml@gmail.com>
+Date:   Wed Jun 20 03:47:42 2018 +0300
+
+    request fix
+
+[33mcommit 352af454fba855837cbe7a50a7043ab9d7650d29[m
+Author: Yudovich <yudovichml@gmail.com>
+Date:   Wed Jun 20 03:37:00 2018 +0300
+
+    oauth request
+
+[33mcommit ee4fec2050d4f9042b15e873f6ff670130ace552[m
+Author: Yudovich <yudovichml@gmail.com>
+Date:   Wed Jun 20 03:15:10 2018 +0300
+
+    Site stub
