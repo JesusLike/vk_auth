@@ -18,6 +18,7 @@ function getInfo(auth_token) {
 					}).forEach(function(item) {
 						$("#friends ul").append("<li>" + item + "</li>");
 					});
+					$("#friends").css("visibility", "visible");
 				}
 			});
 		}
