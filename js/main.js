@@ -11,5 +11,6 @@ $(document).ready(function() {
 		}
 	}
 	$("#auth-button").attr("value", "Выйти");
+	$("#auth-button").click(logout);
 	getInfo($.cookie("vk_auth_token"));
 });
