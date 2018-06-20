@@ -3,6 +3,7 @@ function getInfo(auth_token) {
 	var friendList;
 
 	$.ajax({
+		method: "GET",
 		url: "https://api.vk.com/method/users.get?fields=nickname&access_token=" + auth_token + "&v=5.80",
 		dataType: "jsonp",
 		crossDomain: true,
@@ -12,6 +13,7 @@ function getInfo(auth_token) {
 	});
 	
 	$.ajax({
+		method: "GET",
 		url: "https://api.vk.com/method/friends.get?order=random&count=5&fields=nickname&access_token=" + auth_token,
 		dataType: "jsonp",
 		crossDomain: true,
@@ -21,6 +23,10 @@ function getInfo(auth_token) {
 			});
 		}
 	});
+
+	console.log(username);
+	console.log(friendList);
+	console.log("Get info done");
 
 	return {
 		username: username,

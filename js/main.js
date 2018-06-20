@@ -12,6 +12,9 @@ $(document).ready(function() {
 	}
 	$("#auth-button").attr("value", "Log Out");
 	var output = getInfo($.cookie("vk_auth_token"));
+	console.log(output);
+	console.log(output.friends);
+	console.log(output.username)
 	$("#username").text(output.username);
 	output.friends.forEach(function(item) {
 		$("#friends").append(item + "<br>");
