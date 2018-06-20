@@ -8,7 +8,6 @@ function vk_auth() {
 			"&response_type=token" +
 			"&v=5.80",
 		type: "GET",
-		dataType: "jsonp",
 		crossDomain: "true"
 	});
 }
