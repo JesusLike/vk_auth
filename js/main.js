@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var paramString = windows.location.href.split("?")[1];
+	var paramString = window.location.href.split("?")[1];
 	var searchParams = new URLSearchParams(paramString);
 	if (!$.cookies("vk_auth_token")) {
 		if (!searchParams.has("access_token")) {
