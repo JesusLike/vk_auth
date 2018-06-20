@@ -8,6 +8,7 @@ function getInfo(auth_token) {
 		dataType: "jsonp",
 		crossDomain: true,
 		success: function(data) {
+			alert(5);
 			username = data.response[0].first_name + " " + data.response[0].last_name;
 		}
 	});
@@ -18,6 +19,7 @@ function getInfo(auth_token) {
 		dataType: "jsonp",
 		crossDomain: true,
 		success: function(data) {
+			alert(5);
 			friendList = data.response.items.map(function(item) {
 				return item.first_name + " " + item.last_name;
 			});
