@@ -8,8 +8,9 @@ $(document).ready(function() {
 			$("#auth-button").click(vk_auth);
 			return;		
 		} else {
-			$.cookie("vk_auth_token", searchParams.get("access_token"), 
-				parseInt(searchParams.get("expires_in")) / 60 / 60 / 24);
+			$.cookie("vk_auth_token", searchParams.get("access_token"), {
+				expires: parseInt(searchParams.get("expires_in")) / 60 / 60 / 24
+			});
 		}
 	}
 	$("#auth-button").attr("value", "Выйти");
